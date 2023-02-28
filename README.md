@@ -24,9 +24,7 @@ You can use notepad or any text editor that you like. Replace your Discord token
 Activity types available:
 ```python
 # Setting `Playing ` status
-await bot.change_presence(activity=discord.Game(name="Minecraft"))
-
-# Setting `Streaming ` status
+await bot.change_presence(activity=discord.Game(name="Mine
 await bot.change_presence(activity=discord.Streaming(name="My Stream", url=stream_url))
 
 # Setting `Listening ` status
